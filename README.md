@@ -37,3 +37,7 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+The average case time complexity is $\Theta(n^2)$.
+
+Reasoning: Since the average case is when the array that needs to be sorted is half in order, every element that needs to be sorted has to travel half the array. For every input (n), it needs to be compared against half of the array (1/2n).
